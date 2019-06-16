@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" , initial scale="1.0">
+  <title>SpaceX Microsite</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <img src="images/spacexlogo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Launches</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section class="next_launch">
+      <h1>Next Launch</h1>
+      <div id="SpaceXNextLaunch_details"></div>
+    </section>
+
+    <section class="upcome_launches">
+      <h1>Upcoming Launches</h1>
+      <div class="launch1">
+        <div id="SpaceXupcoming_details"></div>
+        <button onclick="viewAll()" id="view">View More</button>
+      </div>
+    </section>
+
+    <section class="old_launches">
+      <h1>Past Launches</h1>
+      <div class="launch2">
+        <div id="SpaceXpastlaunch_details"></div>
+        <button onclick="viewAllPast()" id="viewpast">View More</button>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="footerpara1">
+      <p><a href="https://www.space.com/news" target=_blank>News</a></p>
+      <p><a href="https://www.spacex.com/" target=_blank>Know more about SpaceX</a></p>
+    </div>
+    <div class="footerpara2">
+      <p>&copy:Copyright</p>
+    </div>
+    </footer>
+
+  <script type="text/javascript" src="javascript/nextlaunch.js"></script>
+  <script type="text/javascript" src="javascript/upcominglaunch.js"></script>
+  <script type="text/javascript" src="javascript/pastlaunch.js"></script>
+
+</body>
+
+</html>

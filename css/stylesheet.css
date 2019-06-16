@@ -1,0 +1,2025 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.weblinks a:link {
+  color: #000000;
+}
+
+.weblinks a:visited {
+  color: #000000;
+}
+
+.weblinks a:hover {
+  color: #9a031e;
+}
+a:link {
+   color: #000000;
+ }
+
+ a:visited {
+   color: #00000;
+ }
+
+ a:hover {
+   color: #FFFFFF;
+ }
+
+ a:active {
+   color: #C20114;
+ }
+
+@font-face {
+  font-family: Source_Sans_Pro;
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('../fonts/Lora/Lora-Bold.ttf');
+}
+
+@font-face {
+  font-family: Frank_Ruhl_Libre;
+  src: url('../fonts/Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf');
+}
+
+@font-face {
+  font-family: Source_Serif_Pro;
+  src: url('../fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf');
+}
+
+.head {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  min-height: 100%;
+  background-color: #62929e;
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.8em;
+  font-family: Frank_Ruhl_Libre;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 6rem 0 4rem;
+}
+
+header nav {
+  float: right;
+  margin-top: 3%;
+  margin-bottom: 0.5rem;
+}
+
+.head img {
+  width: 18%;
+  padding-top: 2rem;
+}
+
+footer {
+  background-color: #62929e;
+  padding: 1rem;
+}
+
+.footerpara1 {
+  display: inline-block;
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.footerpara1 p {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9em;
+  font-family: Frank_Ruhl_Libre;
+}
+
+.footerpara2 {
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 30rem;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Frank_Ruhl_Libre;
+}
+
+.container {
+  margin-bottom: 2rem;
+  width: 99.9%;
+}
+
+.welcome_microsite {
+  position: relative;
+}
+
+.welcome_microsite img {
+  width: 100%;
+}
+
+.welcome_microsite h1 {
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+  font-size: 3em;
+  font-family: Source_Serif_Pro;
+  font-weight: bold;
+  color: #c20114;
+  word-spacing: 0.5rem;
+}
+
+.setfont {
+  display: block;
+  padding: 0.3rem;
+  font-family: Source_Sans_Pro;
+  font-size: 1.1em;
+  line-height: 1.6rem;
+  word-spacing: 0.2rem;
+}
+
+.spacex_launch {
+  padding-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.spacex_launch h1 {
+  padding-left: 10rem;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Lora;
+}
+
+.launch_info {
+  width: 80%;
+  margin-left: 12rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.latestPara {
+  width: 71%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: justify;
+  padding-top: 1rem;
+}
+
+.latestImgInfo {
+  width: 25%;
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.spacecraft {
+  width: 99.9%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.spacecraft h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 10rem;
+  font-family: Lora;
+}
+
+.humancraft1 {
+  width: 31%;
+  margin-left: 16rem;
+  margin-top: 1rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  float: left;
+}
+
+.humancraft2 {
+  width: 31%;
+  margin-right: 16rem;
+  margin-top: 1rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  float: right;
+}
+
+.crafttext1, .crafttext2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+
+#craftimg1, #craftimg2 {
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.next_launch h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-family: Lora;
+}
+
+#SpaceXNextLaunch_details {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  margin-left: 8rem;
+  width: 60%;
+}
+
+.allnextlaunchdetils {
+  width: 100%;
+  display: inline-block;
+}
+
+.nextImgInfo {
+  width: 27%;
+  display: inline-block;
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+
+}
+
+.nextTextInfo {
+  width: 68%;
+  text-align: justify;
+  vertical-align: top;
+  display: inline-block;
+
+}
+
+.upcome_launches {
+  margin-top: 2rem;
+
+}
+
+.old_launches {
+
+  margin-top: 2rem;
+  width: 99.6%;
+}
+
+.launch1 {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 88%;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: inline-block;
+}
+
+.mainInfo {
+  float: left;
+  width: 48.7%;
+  padding-left: 1rem;
+  height: 40rem;
+}
+
+.imgInfo {
+  width: 31%;
+  display: inline-block;
+  margin-top: 2rem;
+
+}
+
+.textInfo {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1rem;
+  text-align: justify;
+
+}
+
+#view {
+  float: none;
+  margin-left: 50rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  word-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: Lora;
+  text-align: center;
+  background-color: #93032e;
+  color: #ffffff;
+  border: none;
+}
+
+#viewpast {
+  float: none;
+  margin-left: 50rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  word-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: Lora;
+  text-align: center;
+  background-color: #93032e;
+  color: #ffffff;
+  border: none;
+}
+
+.upcome_launches h1, .old_launches h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  font-family: Lora;
+}
+
+.launch2 {
+border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 90%;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: inline-block;
+}
+
+.oldDetailInfo {
+  float: left;
+  width: 47.5%;
+  height: auto;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+.oldImgInfo {
+  width: 43%;
+  display: inline-block;
+
+}
+
+.oldTextInfo {
+  width: 55%;
+  height: 25rem;
+  ;
+  display: inline-block;
+  vertical-align: top;
+
+  text-align-last: left;
+  overflow: hidden;
+}
+
+#SpaceXpastlaunch_details {
+  display: inline-block;
+}
+
+.aboutspacex {
+  width: 99.9%;
+}
+
+.about {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-left: 13rem;
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.about img {
+  float: left;
+}
+
+.textaboutcompany {
+  float: right;
+  width: 55%;
+  text-align: justify;
+  margin-right: 1rem;
+}
+
+.aboutparagraph {
+  font-size: 1.1em;
+  word-spacing: 0.2rem;
+  line-height: 1.8rem;
+  font-family: Source_Sans_Pro;
+  text-align: justify;
+
+}
+
+.aboutspacex h1, .historytext h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 11rem;
+  padding-top: 2rem;
+  font-family: Lora;
+}
+
+.historytext {
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+}
+
+.history1 {
+border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 22.8%;
+  float: left;
+  margin-left: 13rem;
+  overflow: hidden;
+}
+
+.history2 {
+border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 22.8%;
+  float: left;
+  margin-left: 6rem;
+}
+
+.history3 {
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 22.8%;
+  float: right;
+  margin-right: 10rem;
+}
+
+.historyimg1, .historyimg2, .historyimg3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.eventparagraph1, .eventparagraph2, .eventparagraph3 {
+  width: 92%;
+  text-align: justify;
+  margin-left: 1rem;
+
+  overflow: hidden;
+  height: auto;
+}
+
+.contactspacex {
+  display: inline-block;
+  width: 99.9%;
+
+}
+
+.contactspacex h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding-left: 12rem;
+  padding-top: 2rem;
+  font-family: Lora;
+}
+
+.contactdetails {
+  float: left;
+  width: 35%;
+  margin-left: 14rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.contactparagraph1 {
+  float: left;
+  vertical-align: top;
+}
+
+.contactparagraph2 {
+  float: right;
+}
+
+.map {
+  padding-left: 0rem;
+  width: 80%;
+}
+
+.inquiry {
+  float: right;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  width: 30%;
+  margin-right: 14rem;
+}
+
+.inquiry h2 {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-family: Lora;
+  font-size: 1.5em;
+}
+
+.inquiry label {
+  font-weight: bold;
+  margin-left: 1.5rem;
+  font-family: Lora;
+  font-size: 1em;
+}
+
+.inquiry input[type=text] {
+  border: 1px solid #000000;
+  width: 90%;
+  height: 1.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 1.5rem;
+}
+
+.inquiry textarea {
+  border: 1px solid #000000;
+  width: 90%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  height: 14.5rem;
+  margin-left: 1.5rem;
+}
+
+.inquiry input[type=submit] {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 19rem;
+  width: 15rem;
+  height: 2rem;
+  cursor: pointer;
+  word-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: Lora;
+  text-align: center;
+  background-color: #93032e;
+  color: #ffffff;
+  border: none;
+}
+.map {
+margin-top: 2rem;
+}
+.map iframe{
+  width:118%;
+  height: 30vh;
+  padding-left: 1rem;
+}
+
+
+/****media query 1****/
+@media only screen and (max-width: 767px) {
+  header, header nav, header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  header li {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+  }
+
+  header a {
+    font-size: 1em;
+  }
+
+  .head img {
+    width: 50%;
+    padding-left: 2rem;
+  }
+
+  .footerpara1 {
+    display: block;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+
+  }
+
+  .footerpara2 {
+    display: block;
+    margin-left: 0rem;
+    font-weight: normal;
+    font-size: 0.7em;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .footerpara1 p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.7em;
+  }
+
+  .container {
+    width: 99.5%;
+  }
+
+  .welcome_microsite img {
+    width: 99.9%;
+    height: 25vh;
+  }
+
+  .welcome_microsite h1 {
+    bottom: 30%;
+    left: 4%;
+    font-size: 1em;
+    word-spacing: 0.2rem;
+    text-align: center;
+  }
+
+  .setfont {
+    padding: 0.1rem;
+    font-size: 1em;
+  }
+
+  .spacex_launch {
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .spacex_launch h1 {
+    padding-left: 1rem;
+    font-size: 1.4em;
+  }
+
+  .spacecraft h1 {
+    font-size: 1.4em;
+    padding-left: 1rem;
+  }
+
+  .launch_info {
+    width: 92.5%;
+    margin-left: 0.8rem;
+  }
+
+  .latestPara {
+    width: 95%;
+    vertical-align: bottom;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .latestImgInfo {
+    width: 97%;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+
+  .latestLaunchImg {
+    /***width: 300px;
+    height: 200px;***/
+    width: 94%;
+    height: 40%;
+  }
+
+  #latestLaunchImgBottom {
+    height: 29vh;
+  }
+
+  #craftimg1, #craftimg2 {
+    padding-left: 0.5rem;
+  }
+
+  .craftLaunchImg {
+    width: 97.5%;
+    height: 80%;
+  }
+
+  .humancraft1 {
+    float: none;
+    margin-left: 0.8rem;
+    width: 92%;
+  }
+
+  .humancraft2 {
+    float: none;
+    width: 92%;
+    margin-right: 1rem;
+    margin-left: 0.8rem;
+  }
+
+  .crafttext1, .crafttext2 {
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .contactdetails {
+    float: none;
+    width: 35%;
+    margin-left: 1rem;
+  }
+
+  .map {
+    padding-left: 0rem;
+    width: 30%;
+  }
+
+  .inquiry input[type=text] {
+    width: 85%;
+    margin-left: 1.5rem;
+  }
+
+  .inquiry textarea {
+    width: 85%;
+    margin-left: 1.5rem;
+  }
+
+  .inquiry input[type=submit] {
+    margin-left: 7rem;
+    width: 12rem;
+    height: 2rem;
+    font-size: 1em;
+  }
+
+  .inquiry label {
+    margin-left: 1.5rem;
+  }
+
+  .contactspacex h1 {
+    font-size: 1.2em;
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+  }
+
+  .contactdetails {
+    width: 88%;
+    margin-left: 0.8rem;
+    padding-left: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+  }
+
+  .contactparagraph2 {
+    float: none;
+  }
+
+  .inquiry h2 {
+    padding-left: 2.8rem;
+    padding-bottom: 1rem;
+    font-size: 1.2em;
+  }
+
+  .inquiry {
+    float: none;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 92%;
+    margin-right: 0rem;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  #view {
+    margin-left: 6rem;
+    width: 8rem;
+    height: 2rem;
+    font-size: 1em;
+  }
+
+  #viewpast {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 2rem;
+    font-size: 1em;
+  }
+
+  .next_launch h1 {
+    font-size: 1.5em;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  #SpaceXNextLaunch_details {
+    margin-left: 1rem;
+    width: 92%;
+  }
+
+  #lauchesNextImage {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .allnextlaunchdetils {
+    width: 100%;
+    display: block;
+  }
+
+  .nextImgInfo {
+    display: block;
+    padding-top: 1rem;
+    width: 91%;
+
+    padding-left: 0rem;
+    margin-left: 1rem;
+  }
+
+  .nextTextInfo {
+    width: 91%;
+    text-align: justify;
+    display: block;
+    margin-left: 1rem;
+
+  }
+
+  .upcome_launches h1, .old_launches h1 {
+    font-size: 1.5em;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  .launch1 {
+    width: 92%;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    display: inline-block;
+  }
+
+  .mainInfo {
+    float: none;
+    width: 95.5%;
+    padding-left: 0.8rem;
+    height: auto;
+
+  }
+
+  .imgInfo {
+    width: 95%;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .oldImgInfo {
+    width: 99.2%;
+  }
+
+  .lauchesUpcomeImg {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .textInfo {
+    width: 95%;
+    display: block;
+    vertical-align: top;
+    margin-top: 0rem;
+    text-align: justify;
+
+  }
+
+  .LaunchesOldImageCall {
+    width: 100%;
+    height: 40vh;
+  }
+
+  #SpaceXpastlaunch_details {
+
+    display: inline-block;
+    width: 100%;
+  }
+
+  .launch2 {
+
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    display: block;
+  }
+
+  .oldDetailInfo {
+    float: none;
+    width: 90%;
+    height: auto;
+    padding-top: 0rem;
+    padding-left: 0rem;
+
+  }
+
+  .oldTextInfo {
+    width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: top;
+    margin-left: 0rem;
+    padding-left: 0rem;
+
+  }
+
+  .aboutspacex {
+    width: 99.9%;
+  }
+
+  .aboutspacex h1, .historytext h1 {
+    font-size: 1.5em;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .about {
+    display: block;
+    margin-left: 1rem;
+    width: 88%;
+    padding-left: 0.5rem;
+    padding-top: 0.8rem;
+  }
+
+  .about img {
+    float: none;
+    width: 98%;
+  }
+
+  .textaboutcompany {
+    float: none;
+    width: 97.5%;
+    text-align: justify;
+    margin-right: 0rem;
+
+  }
+
+  .aboutparagraph {
+    font-size: 1em;
+    word-spacing: 0.3rem;
+    line-height: 1.5rem;
+  }
+
+  .history1 {
+    margin-left: 1rem;
+    width: 90%;
+    height: auto;
+    float: none;
+    margin-bottom: 1rem;
+  }
+
+  .history2 {
+    margin-top: 2rem;
+    width: 90%;
+    float: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .history3 {
+    width: 90%;
+    float: none;
+    margin-right: 0rem;
+    margin-left: 1rem;
+  }
+
+  .historytext {
+    width: 99.9%;
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .historyimg1, .historyimg2, .historyimg3 {
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+  }
+
+  .historyimg1 img {
+    width: 96%;
+  }
+
+  .historyimg2 img {
+    width: 96%;
+  }
+
+  .historyimg3 img {
+    width: 96%;
+  }
+
+  .eventparagraph1, .eventparagraph2, .eventparagraph3 {
+    width: 92%;
+    margin-left: 0.7rem;
+  }
+}
+
+/****media query2****/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header, header nav, header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  header li {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  header a {
+    font-size: 1.5em;
+  }
+
+  .head img {
+    width: 45%;
+    padding-left: 2rem;
+  }
+
+  .container {
+    width: 99.7%;
+  }
+
+  .welcome_microsite img {
+    height: 32vh;
+  }
+
+  .footerpara1 {
+    display: block;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+
+  }
+
+  .footerpara2 {
+    display: block;
+    margin-left: 0rem;
+    margin-top:1rem;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .footerpara1 p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+
+  .welcome_microsite h1 {
+    bottom: 30%;
+    left: 9%;
+    font-size: 1.8em;
+    word-spacing: 0.2rem;
+    text-align: center;
+  }
+
+  .launch_info {
+    width: 95%;
+    margin-left: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+  }
+
+  .latestImgInfo {
+    width: 95.5%;
+  }
+
+  #latestLaunchImgTop {
+    width: 50%;
+    height: 32vh;
+  }
+
+  #latestLaunchImgBottom {
+    width: 50%;
+    height: 32vh;
+  }
+
+  .latestPara {
+    width: 95.5%;
+    display: block;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+  }
+
+  .setfont {
+    padding: 0.3rem;
+    font-size: 1.3em;
+    line-height: 1.9rem;
+  }
+
+  .spacex_launch h1, .spacecraft h1 {
+    padding-left: 1.5rem;
+    font-size: 2em;
+  }
+
+  .craftLaunchImg {
+    width: 96%;
+    height: 36vh;
+  }
+
+  .humancraft1, .humancraft2 {
+    float: none;
+    margin-left: 1rem;
+    width: 95%;
+  }
+
+  .crafttext1, .crafttext2 {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  #view, #viewpast {
+    margin-left: 17rem;
+    margin-top: 2rem;
+    width: 12rem;
+    height: 2rem;
+    font-size: 1.3em;
+  }
+
+  .nextImgInfo {
+    width: 94%;
+    display: block;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+  }
+
+  #lauchesNextImage {
+    width: 92%;
+    height: 35vh;
+  }
+
+  .nextTextInfo {
+    width: 88.5%;
+    text-align: justify;
+    display: block;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .launch1, .launch2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .next_launch h1, .upcome_launches h1, .old_launches h1 {
+    font-size: 2em;
+    padding-left: 1.8rem;
+    padding-top: 1rem;
+  }
+
+  #SpaceXNextLaunch_details {
+    margin-left: 1.8rem;
+    width: 92%;
+  }
+
+  .mainInfo {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgInfo {
+    width: 95%;
+    display: block;
+    margin-top: 2rem;
+
+  }
+
+  .textInfo {
+    width: 90.5%;
+    display: block;
+    margin-top: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .launch1 {
+    width: 92%;
+    margin-left: 1.8rem;
+    display: block;
+  }
+
+  .lauchesUpcomeImg {
+    width: 99.8%;
+    height: 35vh;
+  }
+
+  #SpaceXpastlaunch_details {
+    display: block;
+  }
+
+  .launch2 {
+    width: 95%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: block;
+  }
+
+  .oldDetailInfo {
+    float: none;
+    width: 94.5%;
+    height: auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+  }
+
+  .oldImgInfo {
+    width: 97.5%;
+    display: block;
+  }
+
+  .LaunchesOldImageCall {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .oldTextInfo {
+    width: 97.5%;
+    height: auto;
+    display: block;
+    text-align-last: left;
+    padding-left: 1rem;
+    overflow: hidden;
+  }
+
+  .aboutspacex {
+    width: 99.9%;
+  }
+
+  .aboutspacex h1, .historytext h1 {
+    font-size: 2em;
+    padding-left: 1.5rem;
+  }
+
+  .about {
+    display: block;
+    margin-left: 2.2rem;
+    width: 88%;
+    padding-left: 0.5rem;
+    padding-top: 0.8rem;
+  }
+
+  .about img {
+    float: none;
+    width: 94%;
+    padding-left: 1rem;
+  }
+
+  .textaboutcompany {
+    float: none;
+    width: 94%;
+    padding-left: 1rem;
+    text-align: justify;
+    margin-right: 0rem;
+  }
+
+  .aboutparagraph {
+    font-size: 1.3em;
+    word-spacing: 0.3rem;
+    line-height: 1.9rem;
+  }
+
+  .historytext {
+    display: block;
+  }
+
+  .history1, .history2, .history3 {
+    margin-left: 2.2rem;
+    width: 90%;
+    height: auto;
+    float: none;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+  }
+
+  .historyimg1 img, .historyimg2 img, .historyimg3 img {
+    width: 96%;
+    padding-left: 0.4rem;
+  }
+
+  .eventparagraph1, .eventparagraph2, .eventparagraph3 {
+    width: 93%;
+    margin-left: 1.5rem;
+  }
+
+  .contactspacex h1 {
+    padding-left: 16rem;
+  }
+
+  .contactspacex {
+    display: block;
+    width: 99.9%;
+
+  }
+
+  .contactdetails {
+    float: none;
+    width: 70%;
+    height: auto;
+    margin-left: 7rem;
+  }
+
+  .contactparagraph1, .contactparagraph2 {
+    float: none;
+    text-align: center;
+  }
+
+  .map {
+    margin-top: 2rem;
+  }
+
+  .map iframe {
+    width: 118%;
+    height: 30vh;
+    padding-left: 1rem;
+  }
+
+  .inquiry {
+    float: none;
+    width: 70%;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+
+  .inquiry input[type=submit] {
+    margin-left: 18rem;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1.2em;
+  }
+
+  .inquiry label {
+    font-size: 1.2em;
+    padding-top: 2rem;
+  }
+
+  .inquiry input[type=text] {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+
+  .inquiry h2 {
+    text-align: center;
+    font-size: 1.8em;
+  }
+}
+
+/*****media query3****/
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  header, header nav, header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav {
+    margin-top: 3.5rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  header li {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  header a {
+    font-size: 2em;
+  }
+
+  .head img {
+    width: 45%;
+    padding-left: 2rem;
+  }
+
+  .welcome_microsite img {
+    height: 32vh;
+  }
+
+  .welcome_microsite h1 {
+    bottom: 15%;
+    left: 2.5%;
+    font-size: 3.2em;
+    word-spacing: 0.1rem;
+    text-align: center;
+  }
+  .footerpara1 {
+    display: block;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 100%;
+
+  }
+
+  .footerpara2 {
+    display: block;
+    margin-left: 0rem;
+    margin-top:1rem;
+    font-weight: normal;
+    font-size: 1.4em;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .footerpara1 p {
+    text-align: left;
+    font-weight: normal;
+    margin-left: 4rem;
+    font-size: 1.2em;
+  }
+
+  .launch_info {
+    width: 95%;
+    margin-left: 2rem;
+  }
+
+  .latestImgInfo {
+    width: 95.5%;
+  }
+
+  #latestLaunchImgTop {
+    width: 50%;
+    height: 32vh;
+  }
+
+  #latestLaunchImgBottom {
+    width: 50%;
+    height: 32vh;
+  }
+
+  .latestPara {
+    width: 95.5%;
+    display: block;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+  }
+
+  .setfont {
+    padding: 0.5rem;
+    font-size: 2em;
+    line-height: 2.9rem;
+  }
+
+  .spacex_launch h1, .spacecraft h1 {
+    padding-left: 2rem;
+    font-size: 2.8em;
+  }
+
+  .craftLaunchImg {
+    width: 96%;
+    height: 36vh;
+  }
+
+  .humancraft1, .humancraft2 {
+    float: none;
+    margin-left: 2rem;
+    width: 95%;
+  }
+
+  .crafttext1, .crafttext2 {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  #view, #viewpast {
+    margin-left: 17rem;
+    margin-top: 2rem;
+    width: 12rem;
+    height: 2rem;
+    font-size: 1.3em;
+  }
+
+  .nextImgInfo {
+    width: 95.6%;
+    display: block;
+    padding-top: 1.2rem;
+    padding-left: 2.4rem;
+  }
+
+  #lauchesNextImage {
+    width: 96%;
+    height: 39vh;
+  }
+
+  .nextTextInfo {
+    width: 91.5%;
+    text-align: justify;
+    display: block;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .launch1, .launch2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .next_launch h1, .upcome_launches h1, .old_launches h1 {
+    font-size: 2.8em;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  #SpaceXNextLaunch_details {
+    margin-left: 1.8rem;
+    width: 92%;
+  }
+
+  .mainInfo {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgInfo {
+    width: 92%;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+  }
+
+  .textInfo {
+    width: 86.5%;
+    display: block;
+    margin-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-left: 1.3rem;
+  }
+
+  .launch1 {
+    width: 92%;
+    margin-left: 1.8rem;
+    display: block;
+  }
+
+  .lauchesUpcomeImg {
+    width: 99.8%;
+    height: 35vh;
+  }
+
+  #SpaceXpastlaunch_details {
+    display: block;
+  }
+
+  .launch2 {
+    width: 95%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: block;
+  }
+
+  .oldDetailInfo {
+    float: none;
+    width: 94.5%;
+    height: auto;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+  }
+
+  .oldImgInfo {
+    width: 97.5%;
+    display: block;
+  }
+
+  .LaunchesOldImageCall {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .oldTextInfo {
+    width: 97.5%;
+    height: auto;
+    display: block;
+    text-align-last: left;
+    padding-left: 1rem;
+    overflow: hidden;
+  }
+
+  #view, #viewpast {
+    margin-left: 22rem;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.8em;
+  }
+
+  .aboutspacex {
+    width: 99.9%;
+  }
+
+  .aboutspacex h1, .historytext h1 {
+    font-size: 2.8em;
+    padding-left: 2rem;
+  }
+
+  .about {
+    display: block;
+    margin-left: 2.2rem;
+    width: 88%;
+    padding-left: 0.5rem;
+    padding-top: 0.8rem;
+  }
+
+  .about img {
+    float: none;
+    width: 94%;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .textaboutcompany {
+    float: none;
+    width: 94%;
+    padding-left: 1.5rem;
+    text-align: justify;
+    margin-right: 0rem;
+  }
+
+  .aboutparagraph {
+    font-size: 2em;
+    word-spacing: 0.5rem;
+    line-height: 2.9rem;
+  }
+
+  .historytext {
+    display: block;
+  }
+
+  .history1, .history2, .history3 {
+    margin-left: 2.2rem;
+    width: 90%;
+    height: auto;
+    float: none;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+  }
+
+  .historyimg1 img, .historyimg2 img, .historyimg3 img {
+    width: 96%;
+    padding-left: 0.4rem;
+  }
+
+  .eventparagraph1, .eventparagraph2, .eventparagraph3 {
+    width: 93%;
+    margin-left: 1.5rem;
+  }
+
+  .contactspacex h1 {
+    padding-left: 21rem;
+    font-size: 2.8em;
+  }
+
+  .contactspacex {
+    display: block;
+    width: 99.9%;
+
+  }
+
+  .contactdetails {
+    float: none;
+    width: 70%;
+    height: auto;
+    margin-left: 10rem;
+  }
+
+  .contactparagraph1, .contactparagraph2 {
+    float: none;
+    text-align: center;
+  }
+
+  .map {
+    margin-top: 2rem;
+  }
+
+  .map iframe {
+    width: 118%;
+    height: 30vh;
+    padding-left: 1rem;
+  }
+
+  .inquiry {
+    float: none;
+    width: 70%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+  }
+
+  .inquiry input[type=submit] {
+    margin-left: 20rem;
+    width: 22rem;
+    height: 3rem;
+    font-size: 1.8em;
+  }
+
+  .inquiry label {
+    font-size: 1.9em;
+    padding-top: 2rem;
+  }
+
+  .inquiry input[type=text] {
+    height: 3rem;
+    margin-top: 1rem;
+  }
+
+  .inquiry h2 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+}
+
+/****media query4****/
+@media only screen and (min-width: 1101px) and (max-width: 1440px) {
+  header, header nav, header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav {
+    margin-top: 3.5rem;
+    text-align: center;
+    margin-left: 0rem;
+  }
+
+  header li {
+    padding: 0rem 3rem 0rem 3rem;
+  }
+
+  header a {
+    font-size: 2em;
+  }
+
+  .head img {
+    width: 28%;
+    padding-left: 2rem;
+  }
+
+  .container {
+    width: 99.8%;
+  }
+
+  .welcome_microsite img {
+    height: 55vh;
+  }
+
+  .welcome_microsite h1 {
+    bottom: 30%;
+    left: 18%;
+    font-size: 2.8em;
+    word-spacing: 0.4rem;
+    text-align: center;
+  }
+  .footerpara1 p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+  }
+  .footerpara2 {
+
+    margin-left: 0rem;
+    margin-top:1rem;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+
+  }
+  .setfont {
+    display: block;
+    padding: 0.3rem;
+    font-size: 1.3em;
+    line-height: 2rem;
+  }
+
+  .spacex_launch h1, .spacecraft h1, .next_launch h1 {
+    padding-left: 3rem;
+    font-size: 2.5em;
+  }
+
+  .launch_info {
+    width: 90%;
+    margin-left: 4rem;
+  }
+
+  .latestImgInfo {
+    width: 30%;
+  }
+
+  .latestPara {
+    width: 66.5%;
+    text-align: left;
+    padding-top: 0rem;
+  }
+
+  .humancraft1 {
+    width: 41.5%;
+    margin-left: 4rem;
+  }
+
+  .humancraft2 {
+    width: 41.5%;
+    margin-right: 5rem;
+  }
+
+  #view, #viewpast {
+    float: none;
+    margin-left: 35rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.4em;
+  }
+
+  #SpaceXNextLaunch_details {
+    margin-left: 4rem;
+    width: 90%;
+  }
+
+  .nextImgInfo {
+    width: 24%;
+  }
+
+  .nextTextInfo {
+    width: 73%;
+  }
+
+  .launch1 {
+    width: 90%;
+    margin-left: 4rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .mainInfo {
+    width: 97%;
+  }
+
+  .textInfo {
+    width: 68.6%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1rem;
+    text-align: justify;
+    height: auto;
+  }
+
+  .lauchesUpcomeImg {
+    width: 99.8%;
+    height: 65vh;
+  }
+
+  .launch2 {
+    width: 90%;
+    margin-left: 4rem;
+  }
+
+  .oldImgInfo {
+    width: 35%;
+  }
+
+  .LaunchesOldImageCall {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .oldDetailInfo {
+    width: 96.2%;
+  }
+
+  .oldTextInfo {
+    width: 64.5%;
+    height: auto;
+  }
+
+  .about {
+    display: block;
+    margin-left: 7rem;
+    width: 80%;
+  }
+
+  .about img {
+    float: none;
+    width: 94%;
+    padding-left: 1.5rem;
+  }
+
+  .textaboutcompany {
+    float: none;
+    width: 94%;
+    margin-right: 0rem;
+    margin-left: 1.5rem;
+  }
+
+  .aboutparagraph {
+    font-size: 1.5em;
+    line-height: 2.5rem;
+  }
+
+  .aboutspacex h1, .historytext h1, .contactspacex h1 {
+    font-size: 2.5em;
+    padding-left: 3rem;
+  }
+
+  .history1 {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 22.8%;
+    float: left;
+    margin-left: 7rem;
+    overflow: hidden;
+  }
+
+  .history2 {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 22.8%;
+    float: left;
+    margin-left: 6rem;
+  }
+
+  .history3 {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 22.8%;
+    float: right;
+    margin-right: 10rem;
+  }
+
+  .historyimg1, .historyimg2, .historyimg3 {
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+
+  .historyimg1 img, .historyimg2 img, .historyimg3 img {
+    width: 96%;
+    padding-left: 0.4rem;
+  }
+
+  .eventparagraph1, .eventparagraph2, .eventparagraph3 {
+    width: 95%;
+    text-align: left;
+    margin-left: 0.4rem;
+  }
+
+  .contactdetails {
+    width: 40%;
+    margin-left: 4rem;
+  }
+  .contactparagraph2, .contactparagraph1{
+    float:left;
+    padding-left:2rem;
+  }
+  .map {
+  margin-top: 2rem;
+  }
+  .map iframe{
+    width:118%;
+    height: 30vh;
+    padding-left: 1rem;
+  }
+  .inquiry {
+    width: 40%;
+    margin-right: 4rem;
+  }
+
+  .inquiry h2 {
+    padding-left: 6rem;
+    font-size: 1.8em;
+  }
+
+  .inquiry label {
+    margin-left: 1.5rem;
+    font-size: 1.2em;
+  }
+
+  .inquiry input[type=text] {
+    width: 90%;
+    height: 2rem;
+    margin-top: 0.8rem;
+  }
+
+  .inquiry input[type=submit] {
+    margin-left: 16rem;
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.3em;
+  }
+}

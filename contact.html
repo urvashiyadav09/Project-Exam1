@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" , initial scale="1.0">
+  <title>SpaceX Microsite</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <img src="images/spacexlogo.png" alt="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="launches.html">Launches</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section class="contactspacex">
+        <h1>Contact SpaceX</h1>
+          <div class="contactdetails">
+          <div class="contactparagraph1" id="contactcompany"></div>
+          <div class="contactparagraph2">
+            <p><span class="setfont"><b>Media Enquiries: </b>media@spacex.com</p>
+            <p><span class="setfont"><b>Phone: </b>310-363-6000</p>
+          </div>
+
+          <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.7702011985466!2d-118.32906698435386!3d33.92131348064181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b5ded9a490b5%3A0x3095ae5795c500b3!2sRocket+Rd%2C+Hawthorne%2C+CA+90250%2C+USA!5e0!3m2!1sen!2sno!4v1560464527301!5m2!1sen!2sno"  frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="inquiry">
+        <h2>Submit Your Query Here</h2>
+          <form class="queryform">
+            <label for="fname">First Name:</label><input id ="fname" type="text" name="Customername" placeholder="Please enter your first name.....">
+            <label for="fname">Last Name:</label><input id ="lname" type="text" name="Customername" placeholder="Please enter your last name.....">
+            <label for="email">Email Address:</label><input id ="email" type="text" name="Customeremail" placeholder="Please enter your email address.....">
+            <label for="phone">Phone:</label><input id = "phone" type="text" name="Customerphone" placeholder="Please enter your phone number.....">
+            <label for="qnquiryform">Enquiry:</label><textarea name="query" placeholder="Write your query here....."></textarea>
+            <div id="enquiry_submit">
+            <input type="submit" name="submitenquiry" value="Submit Your Query" onclick="checkInput()">
+            </div>
+
+          </form>
+
+          </div>
+        </section>
+
+    </div>
+
+    <footer>
+      <div class="footerpara1">
+        <p><a href="https://www.space.com/news" target=_blank>News</a></p>
+        <p><a href="https://www.spacex.com/" target=_blank>Know more about SpaceX</a></p>
+      </div>
+      <div class="footerpara2">
+        <p>&copy:Copyright</p>
+      </div>
+    </footer>
+
+<script type="text/javascript" src="javascript/contact.js"></script>
+<script type="text/javascript" src="javascript/validation.js"></script>
+
+</body>
+
+</html>
